@@ -1,18 +1,21 @@
 # 📰 Buscador de Noticias (Proyecto 7)
 
-Proyecto basado en el curso de JavaScript ES6 (Proyecto 7 - YouTube).  
-Permite buscar noticias por categoría usando **NewsAPI.org**.
+Versión exacta del proyecto del video de **Bluuweb - Curso JavaScript ES6**.  
+Permite buscar noticias por categoría usando la **API de NewsAPI.org**.
 
 ## 🚀 Tecnologías
 - HTML5 + Bootstrap 5
-- JavaScript ES6
+- JavaScript (ES6)
 - Fetch API
 - NewsAPI
 
 ## 🔑 Configuración
-1. Crea una cuenta gratuita en [https://newsapi.org](https://newsapi.org)
-2. Obtén tu API Key.
-3. Sustituye `"996409b7df5142cc9e9698610b17d2f8"` en el archivo `app.js`.
+1. Regístrate en [https://newsapi.org](https://newsapi.org)  
+2. Copia tu **API Key**
+3. Sustituye `TU_API_KEY_AQUI` en `app.js`
+
+## 📦 Repositorio en GitHub
+`https://github.com/tuUsuario/buscador-noticias`
 
 ## 🌍 Demo en Netlify
-Sube el proyecto y obtendrás una URL como:
+`https://buscador-noticias.netlify.app`
