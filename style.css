@@ -1,0 +1,85 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e3f2fd; /* azul muy claro */
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor blanco */
+.contenedor {
+  margin-top: 50px;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+/* Título principal */
+.titulo {
+  font-weight: bold;
+  color: #0d47a1;
+  margin-bottom: 30px;
+}
+
+/* Select */
+select {
+  width: 60%;
+  margin: 0 auto 20px;
+  display: block;
+  border: 2px solid #0d47a1;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+/* Botón */
+.boton-buscar {
+  width: 60%;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.boton-buscar:hover {
+  background-color: #ffb300 !important;
+  transform: scale(1.05);
+}
+
+/* Tarjetas de noticias */
+.card {
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.card-title {
+  background: rgba(13, 71, 161, 0.8);
+  color: #fff;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.card-content h3 {
+  color: #0d47a1;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  color: #444;
+  font-size: 15px;
+}
+
+.card-action a {
+  background-color: #ff9800 !important;
+  color: white !important;
+  border-radius: 20px;
+}
+
+.card-action a:hover {
+  background-color: #f57c00 !important;
+}
